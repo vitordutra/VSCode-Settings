@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+numpad_divide",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+numpad_divide",
+    "command": "editor.action.blockComment",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "-editor.action.blockComment",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+'",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+[BracketLeft]",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "editor.action.duplicateSelection"
+  },
+  {
+    "key": "ctrl+alt+numpad0",
+    "command": "workbench.action.terminal.runSelectedText"
+  }
+]
